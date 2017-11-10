@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <!-- Slide Main - Set the background image for this slide in the line below -->
+            <div class="carousel-item active" style="background-image: url('../../Content/img/church.jpg')">
+                <div class="carousel-caption d-md-block">
+                    <div class="m-0">
+                        <div class="intro-lead-in">Welcome To Catholic Community!</div>
+                        <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
+                        @Html.ActionLink("Tell Me More", "About", "Home", null, new { @class = "btn btn-primary btn-lg text-uppercase " })
+                        <p>
+                            Behold, how good and how pleasant it is for brothers to dwell together in unity.
+                            <small class="">-- Psalms 133:1</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Slide One - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('../../Content/img/Brahmanapally.jpg')">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Brahmanapally</h3>
+                </div>
+            </div>
+            <!-- Slide Two - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('../../Content/img/Fatima_cathedral-Kazipet.jpg')">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Fatima Cathedral - Kazipet</h3>
+                </div>
+            </div>
+            <!-- Slide Three - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('../../Content/img/Mattampally.jpg')">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Mattampally</h3>
+                </div>
+            </div>
+            <!-- Slide Four - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('../../Content/img/Patibandla.jpg')">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Patibandla</h3>
+                </div>
+            </div>
+            <!-- Slide Four - Set the background image for this slide in the line below -->
+            <div class="carousel-item" style="background-image: url('../../Content/img/Siripuram.jpg')">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Siripuram</h3>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</header>
+
+
