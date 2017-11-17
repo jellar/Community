@@ -144,7 +144,11 @@
     <Content Include="Content\fonts\fontawesome-webfont.svg" />
     <Content Include="Content\img\Brahmanapally.jpg" />
     <Content Include="Content\img\church.jpg" />
+    <Content Include="Content\img\Events\IMG-20171107-WA0015.jpg" />
+    <Content Include="Content\img\Events\IMG-20171107-WA0016.jpg" />
+    <Content Include="Content\img\Events\IMG-20171107-WA0033.jpg" />
     <Content Include="Content\img\Fatima_cathedral-Kazipet.jpg" />
+    <Content Include="Content\img\Jaganadhapuram.jpg" />
     <Content Include="Content\img\Mattampally.jpg" />
     <Content Include="Content\img\Patibandla.jpg" />
     <Content Include="Content\img\Siripuram.jpg" />
@@ -153,6 +157,8 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\app\site.js" />
+    <Content Include="Scripts\bootstrap.bundle.js" />
+    <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\fonts\fontawesome-webfont.eot" />
@@ -160,6 +166,7 @@
     <Content Include="Content\fonts\fontawesome-webfont.woff" />
     <Content Include="Content\fonts\fontawesome-webfont.woff2" />
     <Content Include="Content\fonts\FontAwesome.otf" />
+    <None Include="Properties\PublishProfiles\community.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

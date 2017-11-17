@@ -1,6 +1,13 @@
-﻿body {
+﻿ @font-face {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-weight: 400;
+            src: local("Segoe UI"), local("Open Sans"), local("OpenSans"), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/K88pR3goAWT7BTt32Z01mz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+        }
+
+body {
   overflow-x: hidden;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: "Open Sans"; }
 
 p {
   line-height: 1.75; }
@@ -76,14 +83,13 @@ body {
     font-size: 12px;
     right: 0;
     padding: 2px;
-    text-transform: uppercase;
     color: white;
     border: 0;
     background-color: #fed136;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
     color: #fed136;
-    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
+  }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #fec503; }
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -156,7 +162,7 @@ body {
     margin-top: 10px;
 }
 .carousel-item {
-  height: 88vh;
+  height: 65vh;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -197,4 +203,13 @@ body {
 /*audio*/
 .audiojs .play-pause {
     width: 40px;
+}
+
+.list-group-item.active {
+    background-color: #fed136;
+  border-color: #fed136;
+}
+.pre-scrollable-600 {
+    height: 100%;
+    overflow-y: auto;
 }
